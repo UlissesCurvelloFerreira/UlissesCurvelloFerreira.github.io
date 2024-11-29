@@ -1,65 +1,77 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Simples</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
 
-<!-- Estilos CSS aplicados para dar vida ao site -->
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
 
-    
-<style>
-    /* Estilo básico para a página */
-    body {
-        font-family: Arial, sans-serif;
-        background-color: #f4f4f4;
-        color: #333;
-        margin: 0;
-        padding: 0;
-    }
+        .texto_principal {
+            text-align: center;
+            padding: 30px 20px;
+        }
 
-    header {
-        background-color: #4CAF50;
-        color: white;
-        text-align: center;
-        padding: 20px;
-    }
+        .botoes {
+            text-align: center;
+            margin-top: 20px;
+        }
 
-    .texto_principal {
-        text-align: center;
-        padding: 30px 20px;
-    }
+        .botoes a {
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 0 10px;
+            background-color: #4CAF50;
+            color: white;
+            border-radius: 5px;
+            font-size: 1rem;
+        }
 
-    footer {
-        background-color: #333;
-        color: white;
-        text-align: center;
-        padding: 10px 0;
-        position: fixed;
-        width: 100%;
-        bottom: 0;
-    }
-</style>
+        .botoes a:hover {
+            background-color: #45a049;
+        }
 
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bem-vindo</h1>
+    </header>
 
-
-    <!-- Cabeçalho da página, que contém metadados e informações sobre o documento -->
-    <head>
-        <meta charset="UTF-8"> 
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-        <title>Site Simples</title>
-    </head>
-
-    <!-- Corpo da página -->
-    <body>
-        <header>
-            <h1>Bem-vindo</h1>
-        </header>
-
-        <div class="texto_principal">
-            <h2>Um Texto Simples</h2>
-            <p>Exemplo de site.</p>
+    <div class="texto_principal">
+        <h2>Um Texto Simples</h2>
+        <p>Exemplo de site com navegação entre páginas.</p>
+        <div class="botoes">
+            <a href="pagina1.html">Botão 1</a>
+            <a href="pagina2.html">Botão 2</a>
+            <a href="pagina3.html">Botão 3</a>
         </div>
-    </body>
+    </div>
 
-    <!-- Rodapé da página -->
     <footer>
         <p>2024</p>
     </footer>
+</body>
 </html>
